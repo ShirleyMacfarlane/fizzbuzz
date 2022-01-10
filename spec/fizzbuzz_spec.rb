@@ -4,3 +4,32 @@ describe 'fizzbuzz' do
     end
 end
 
+describe 'fizzbuzz' do
+    it 'returns "buzz" when passed 5' do
+      expect(fizzbuzz(5)).to eq 'buzz'
+    end
+end
+
+describe 'fizzbuzz' do
+    it 'returns "fizzbuzz" when passed 15' do
+      expect(fizzbuzz(15)).to eq 'fizzbuzz'
+    end
+end
+
+describe 'fizzbuzz' do 
+  it 'returns 1 when passed 1' do
+      expect(fizzbuzz(1)).to eq 1
+  end
+end
+
+describe 'fizzbuzz' do 
+  it 'returns "a" when passed a' do
+      expect(fizzbuzz("a")).to eq "a"
+  end
+end
+
+describe 'fizzbuzz' do 
+  it 'returns "-1" when passed -1' do
+      expect(fizzbuzz(-1)).to eq -1
+  end
+end
